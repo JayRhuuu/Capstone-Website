@@ -10,7 +10,7 @@
    <main class="flex-1 p-6">
      <h1 class="text-xl font-bold mb-6"> Creat Note</h1>
 
-     <form method="POST">
+     <form method="POST" action="/Notes">
        <label for="body">Description</label>
        <div>
          <textarea
