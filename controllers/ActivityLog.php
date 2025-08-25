@@ -1,6 +1,4 @@
 <?php
 
 
-view("ActivityLog.view.php", [
-
-]);
+view("ActivityLog.view.php");

@@ -1,6 +1,3 @@
 <?php
 
-
-view("Settings.view.php", [
-
-]);
+view("Settings.view.php");

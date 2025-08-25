@@ -8,7 +8,7 @@
 
     <!-- Right: User Info -->
     <div class="flex items-center space-x-4">
-      <span class="font-medium">Administrator</span>
+      <span class="font-medium"><?= $_SESSION['name'] ?? 'Guest' ?></span>
       <div class="h-8 w-8 rounded-full bg-gray-300 flex items-center justify-center">A</div>
     </div>
   </header>

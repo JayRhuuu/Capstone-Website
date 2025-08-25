@@ -1,6 +1,4 @@
 <?php
 
 
-view("GeneralRecords.view.php", [
-
-]);
+view("GeneralRecords.view.php");

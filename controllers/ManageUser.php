@@ -1,6 +1,4 @@
 <?php
 
 
-view("ManageUser.view.php", [
-
-]);
+view("ManageUser.view.php");

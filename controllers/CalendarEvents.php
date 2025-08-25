@@ -1,6 +1,4 @@
 <?php
 
 
-view("CalendarEvents.view.php", [
-
-]);
+view("CalendarEvents.view.php");
