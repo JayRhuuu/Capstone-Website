@@ -8,7 +8,13 @@
 
     <!-- Right: User Info -->
     <div class="flex items-center space-x-4">
-      <span class="font-medium"><?= $_SESSION['name'] ?? 'Guest' ?></span>
+      <span class="font-medium"><?= $_SESSION['user']['email'] ?? 'Guest' ?></span>
+
+      <?php if ($_SESSION['user'] ?? false) : ?>
       <div class="h-8 w-8 rounded-full bg-gray-300 flex items-center justify-center">A</div>
+      <?php else : ?>
+        <a href="/Register" class="text-gray-500 border border-current hover:bg-gray-200 px-2 py-1 rounded">Register</a>
+        <a href="/Login" class="text-blue-500 border border-current hover:bg-blue-200 px-2 py-1 rounded">Log In</a>
+      <?php endif; ?>
     </div>
   </header>
