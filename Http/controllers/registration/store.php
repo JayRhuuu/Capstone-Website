@@ -45,4 +45,7 @@ if ($user) {
     $auth->login([
         'email' => $email
     ]);
+
+    header('location: /');
+    exit();
 }
